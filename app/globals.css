@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Light / Dark mode variables */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Fonts */
+  --font-sans: "Vend Sans", sans-serif;
+  --font-mono: "Courier New", monospace;
+}
+
+/* Inline theme variables (for @theme inline if needed) */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Body styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Vend Sans reusable classes */
+.vend-sans-300 {
+  font-family: "Vend Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.vend-sans-400 {
+  font-family: "Vend Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vend-sans-500 {
+  font-family: "Vend Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.vend-sans-700 {
+  font-family: "Vend Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
