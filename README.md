@@ -52,12 +52,16 @@ npm start
 app/
 components/
 public/images/
-package.json
-tailwind.config.js
-postcss.config.js
-README.md
+eslint.config
 LICENSE.txt
-tsconfig.json
+next.config
+next.env.d
+package
+package-lock
+postcss.config
+README
+tailwind.config.js
+tsconfig
 ```
 
 ---
