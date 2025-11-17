@@ -7,7 +7,7 @@ Perfect for developers, designers, photographers, and video editors who want a c
 
 ## 🖥️ Features
 
-- Fully responsive (Mobile → Tablet → Desktop)  
+- Fully responsive (Mobile → Tablet → Desktop/Laptop)  
 - 6 ready-to-use pages: Home, About, Resume, Portfolio, Testimonials, Contact  
 - Sidebar navigation (desktop) and mobile bottom navigation  
 - Portfolio category filtering  
